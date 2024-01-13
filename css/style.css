@@ -149,7 +149,10 @@
         opacity: 1;
     }
 }
-
+.btn-primary.active {
+    background-color: white; /* Set the background to white */
+    color: var(--primary); /* Set the text color to your primary color */
+}
 
 /*** Header carousel ***/
 @media (max-width: 768px) {
@@ -432,3 +435,107 @@
     padding-right: 0;
     border-right: none;
 }
+
+.form-floating {
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically, if needed */
+    width: 100%; /* Ensures the container takes full width of its parent */
+    padding: 1em;
+
+}
+  .form-floating .email {
+    
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-bottom: 1em;
+    width: 50vw;
+    
+  }
+  .form-floating .email input {
+    outline: none;
+    border: none;
+
+  }
+  .form-floating .email input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .form-floating .email input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+
+  }
+  .form-floating .email input::placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .form-floating .email ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+
+  }
+  .form-floating .password {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-bottom: 1em;
+    width: 50vw;
+  }
+  .form-floating .password input {
+    outline: none;
+    border: none;
+  }
+  .form-floating .password input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .form-floating .password input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .form-floating .password input::placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .form-floating .password ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+  .form-floating .password .show-hide {
+    margin-right: -5em;
+  }
+  .form-floating .login {
+    padding: 1em;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+
+  button {
+    cursor: pointer;
+    width: 50vw;
+  }
+  .form-floating .footer {
+    display: flex;
+    font-size: 0.7em;
+    color: #5e5e5e;
+    gap: 14em;
+    padding-bottom: 10em;
+  }
+  .form-floating .footer span {
+    cursor: pointer;
+  }
+  
