@@ -149,6 +149,8 @@
         opacity: 1;
     }
 }
+
+
 .btn-primary.active {
     background-color: white; /* Set the background to white */
     color: var(--primary); /* Set the text color to your primary color */
